@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1911FBD11E4EF11500D44E0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911FBD01E4EF11500D44E0E /* AppDelegate.swift */; };
+		1911FBD31E4EF11600D44E0E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911FBD21E4EF11600D44E0E /* ViewController.swift */; };
+		1911FBD61E4EF11600D44E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1911FBD41E4EF11600D44E0E /* Main.storyboard */; };
+		1911FBD91E4EF11600D44E0E /* TripToEnjoy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1911FBD71E4EF11600D44E0E /* TripToEnjoy.xcdatamodeld */; };
+		1911FBDB1E4EF11600D44E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1911FBDA1E4EF11600D44E0E /* Assets.xcassets */; };
+		1911FBDE1E4EF11600D44E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1911FBDC1E4EF11600D44E0E /* LaunchScreen.storyboard */; };
+		1911FBE91E4EF11600D44E0E /* TripToEnjoyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911FBE81E4EF11600D44E0E /* TripToEnjoyUITests.swift */; };
+		1911FBF41E4EF27700D44E0E /* Expense ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911FBF31E4EF27700D44E0E /* Expense ViewController.swift */; };
+		1911FBF61E4EF28D00D44E0E /* AddExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911FBF51E4EF28D00D44E0E /* AddExpenseViewController.swift */; };
+		1911FBF81E4EFD9E00D44E0E /* CreatetripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911FBF71E4EFD9E00D44E0E /* CreatetripViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1911FBE51E4EF11600D44E0E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1911FBC51E4EF11500D44E0E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1911FBCC1E4EF11500D44E0E;
+			remoteInfo = TripToEnjoy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1911FBCD1E4EF11500D44E0E /* TripToEnjoy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TripToEnjoy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1911FBD01E4EF11500D44E0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1911FBD21E4EF11600D44E0E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1911FBD51E4EF11600D44E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1911FBD81E4EF11600D44E0E /* TripToEnjoy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TripToEnjoy.xcdatamodel; sourceTree = "<group>"; };
+		1911FBDA1E4EF11600D44E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1911FBDD1E4EF11600D44E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1911FBDF1E4EF11600D44E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1911FBE41E4EF11600D44E0E /* TripToEnjoyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TripToEnjoyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1911FBE81E4EF11600D44E0E /* TripToEnjoyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripToEnjoyUITests.swift; sourceTree = "<group>"; };
+		1911FBEA1E4EF11600D44E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1911FBF31E4EF27700D44E0E /* Expense ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expense ViewController.swift"; sourceTree = "<group>"; };
+		1911FBF51E4EF28D00D44E0E /* AddExpenseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExpenseViewController.swift; sourceTree = "<group>"; };
+		1911FBF71E4EFD9E00D44E0E /* CreatetripViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatetripViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1911FBCA1E4EF11500D44E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1911FBE11E4EF11600D44E0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1911FBC41E4EF11500D44E0E = {
+			isa = PBXGroup;
+			children = (
+				1911FBCF1E4EF11500D44E0E /* TripToEnjoy */,
+				1911FBE71E4EF11600D44E0E /* TripToEnjoyUITests */,
+				1911FBCE1E4EF11500D44E0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1911FBCE1E4EF11500D44E0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1911FBCD1E4EF11500D44E0E /* TripToEnjoy.app */,
+				1911FBE41E4EF11600D44E0E /* TripToEnjoyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1911FBCF1E4EF11500D44E0E /* TripToEnjoy */ = {
+			isa = PBXGroup;
+			children = (
+				1911FBD01E4EF11500D44E0E /* AppDelegate.swift */,
+				1911FBD21E4EF11600D44E0E /* ViewController.swift */,
+				1911FBF31E4EF27700D44E0E /* Expense ViewController.swift */,
+				1911FBF71E4EFD9E00D44E0E /* CreatetripViewController.swift */,
+				1911FBF51E4EF28D00D44E0E /* AddExpenseViewController.swift */,
+				1911FBD41E4EF11600D44E0E /* Main.storyboard */,
+				1911FBDA1E4EF11600D44E0E /* Assets.xcassets */,
+				1911FBDC1E4EF11600D44E0E /* LaunchScreen.storyboard */,
+				1911FBDF1E4EF11600D44E0E /* Info.plist */,
+				1911FBD71E4EF11600D44E0E /* TripToEnjoy.xcdatamodeld */,
+			);
+			path = TripToEnjoy;
+			sourceTree = "<group>";
+		};
+		1911FBE71E4EF11600D44E0E /* TripToEnjoyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1911FBE81E4EF11600D44E0E /* TripToEnjoyUITests.swift */,
+				1911FBEA1E4EF11600D44E0E /* Info.plist */,
+			);
+			path = TripToEnjoyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1911FBCC1E4EF11500D44E0E /* TripToEnjoy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1911FBED1E4EF11600D44E0E /* Build configuration list for PBXNativeTarget "TripToEnjoy" */;
+			buildPhases = (
+				1911FBC91E4EF11500D44E0E /* Sources */,
+				1911FBCA1E4EF11500D44E0E /* Frameworks */,
+				1911FBCB1E4EF11500D44E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TripToEnjoy;
+			productName = TripToEnjoy;
+			productReference = 1911FBCD1E4EF11500D44E0E /* TripToEnjoy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1911FBE31E4EF11600D44E0E /* TripToEnjoyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1911FBF01E4EF11600D44E0E /* Build configuration list for PBXNativeTarget "TripToEnjoyUITests" */;
+			buildPhases = (
+				1911FBE01E4EF11600D44E0E /* Sources */,
+				1911FBE11E4EF11600D44E0E /* Frameworks */,
+				1911FBE21E4EF11600D44E0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1911FBE61E4EF11600D44E0E /* PBXTargetDependency */,
+			);
+			name = TripToEnjoyUITests;
+			productName = TripToEnjoyUITests;
+			productReference = 1911FBE41E4EF11600D44E0E /* TripToEnjoyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1911FBC51E4EF11500D44E0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Souvik Sinhamahapatra";
+				TargetAttributes = {
+					1911FBCC1E4EF11500D44E0E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HFFR8L4XMP;
+						ProvisioningStyle = Automatic;
+					};
+					1911FBE31E4EF11600D44E0E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = HFFR8L4XMP;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1911FBCC1E4EF11500D44E0E;
+					};
+				};
+			};
+			buildConfigurationList = 1911FBC81E4EF11500D44E0E /* Build configuration list for PBXProject "TripToEnjoy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1911FBC41E4EF11500D44E0E;
+			productRefGroup = 1911FBCE1E4EF11500D44E0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1911FBCC1E4EF11500D44E0E /* TripToEnjoy */,
+				1911FBE31E4EF11600D44E0E /* TripToEnjoyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1911FBCB1E4EF11500D44E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1911FBDE1E4EF11600D44E0E /* LaunchScreen.storyboard in Resources */,
+				1911FBDB1E4EF11600D44E0E /* Assets.xcassets in Resources */,
+				1911FBD61E4EF11600D44E0E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1911FBE21E4EF11600D44E0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1911FBC91E4EF11500D44E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1911FBD91E4EF11600D44E0E /* TripToEnjoy.xcdatamodeld in Sources */,
+				1911FBD31E4EF11600D44E0E /* ViewController.swift in Sources */,
+				1911FBF61E4EF28D00D44E0E /* AddExpenseViewController.swift in Sources */,
+				1911FBF81E4EFD9E00D44E0E /* CreatetripViewController.swift in Sources */,
+				1911FBF41E4EF27700D44E0E /* Expense ViewController.swift in Sources */,
+				1911FBD11E4EF11500D44E0E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1911FBE01E4EF11600D44E0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1911FBE91E4EF11600D44E0E /* TripToEnjoyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1911FBE61E4EF11600D44E0E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1911FBCC1E4EF11500D44E0E /* TripToEnjoy */;
+			targetProxy = 1911FBE51E4EF11600D44E0E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1911FBD41E4EF11600D44E0E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1911FBD51E4EF11600D44E0E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1911FBDC1E4EF11600D44E0E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1911FBDD1E4EF11600D44E0E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1911FBEB1E4EF11600D44E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1911FBEC1E4EF11600D44E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1911FBEE1E4EF11600D44E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HFFR8L4XMP;
+				INFOPLIST_FILE = TripToEnjoy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dal.TripToEnjoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1911FBEF1E4EF11600D44E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HFFR8L4XMP;
+				INFOPLIST_FILE = TripToEnjoy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dal.TripToEnjoy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1911FBF11E4EF11600D44E0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HFFR8L4XMP;
+				INFOPLIST_FILE = TripToEnjoyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dal.TripToEnjoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TripToEnjoy;
+			};
+			name = Debug;
+		};
+		1911FBF21E4EF11600D44E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HFFR8L4XMP;
+				INFOPLIST_FILE = TripToEnjoyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dal.TripToEnjoyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TripToEnjoy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1911FBC81E4EF11500D44E0E /* Build configuration list for PBXProject "TripToEnjoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1911FBEB1E4EF11600D44E0E /* Debug */,
+				1911FBEC1E4EF11600D44E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1911FBED1E4EF11600D44E0E /* Build configuration list for PBXNativeTarget "TripToEnjoy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1911FBEE1E4EF11600D44E0E /* Debug */,
+				1911FBEF1E4EF11600D44E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1911FBF01E4EF11600D44E0E /* Build configuration list for PBXNativeTarget "TripToEnjoyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1911FBF11E4EF11600D44E0E /* Debug */,
+				1911FBF21E4EF11600D44E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1911FBD71E4EF11600D44E0E /* TripToEnjoy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1911FBD81E4EF11600D44E0E /* TripToEnjoy.xcdatamodel */,
+			);
+			currentVersion = 1911FBD81E4EF11600D44E0E /* TripToEnjoy.xcdatamodel */;
+			path = TripToEnjoy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1911FBC51E4EF11500D44E0E /* Project object */;
+}
